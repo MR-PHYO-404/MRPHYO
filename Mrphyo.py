@@ -1,7 +1,7 @@
 #SOURCE LEAKED BY :MR-ADI
 #REASON : BECAUSE LOL BADSHAH
 #WAS INTERFERE BETWEEN
-#AWAIS & LKING FIGHT 😎 
+#AWAIS & LKING FIGHT 
 from os import path
 import os,base64,zlib,pip,urllib
 os.system('xdg-open https://www.facebook.com/groups/970667860754460/')
